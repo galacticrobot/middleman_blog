@@ -19,3 +19,9 @@ gem "neat"
 
 # Autoprefixer
 gem "middleman-autoprefixer"
+
+# Add a blog
+gem "middleman-blog"
+
+# Include gem for excerpts
+gem "nokogiri"

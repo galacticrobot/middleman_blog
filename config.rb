@@ -39,6 +39,15 @@ activate :autoprefixer do |config|
 end
 
 ###
+# Blog
+###
+
+activate :blog do |blog|
+  blog.prefix = "articles" #finds posts in /articles
+  blog.paginate = true #enable pagination
+end
+
+###
 # Helpers
 ###
 
