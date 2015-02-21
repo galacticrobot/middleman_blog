@@ -1,0 +1,30 @@
+/* ==========================================================================
+
+   Header
+
+========================================================================== */
+
+.section-header {
+    @include section-small;
+    background-color: $dark;
+
+    .main-logo {
+        @include span-columns(4);
+    }
+
+    .main-navigation {
+        @include span-columns(8);
+        text-align: right;
+
+        .main-navigation-list {
+            li {
+                display: inline;
+                a {
+                    display: inline-block;
+                    margin-left: 1em;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

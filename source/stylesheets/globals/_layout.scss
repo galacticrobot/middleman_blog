@@ -1,0 +1,30 @@
+/* ==========================================================================
+
+   Layout
+
+========================================================================== */
+
+//--------------------------------------------------------------------------
+//  Set Box sizing border box for all things - Yay!
+//--------------------------------------------------------------------------
+$border-box-sizing: true !default;
+
+// --------------------------------------------------------------------------
+//  Standard Containers
+// --------------------------------------------------------------------------
+
+.container {
+    @include outer-container;
+}
+
+.content-block {
+    @include section;
+}
+
+.section-hero {
+    @include background-image( linear-gradient( hsla(0, 0%, 7%, 0.4), hsla(0, 0%, 7%, 0.4)  ), url("../images/hero_ipad_2.jpg"));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
