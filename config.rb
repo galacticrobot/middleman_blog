@@ -45,12 +45,12 @@ end
 ###
 
 activate :blog do |blog|
-
   # Enable pagination
   blog.paginate = true
-  blog.per_page = 2
+  blog.per_page = 10
   # blog.page_link = "page/{num}"
 
+  blog.name = "blog"
   blog.prefix = "blog" #finds posts in folder "/blog"
   #blog.permalink = "{title}.html"
   blog.layout = "article" #what layout all "single post files" will have
@@ -69,7 +69,6 @@ activate :blog do |blog|
 
   #blog.tag_template = "tag.html"
   #blog.calendar_template = "calendar.html"
-
 end
 
 activate :directory_indexes #Pretty URL's
@@ -86,6 +85,14 @@ activate :syntax #activate syntax highligthing
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+end
+
+###
+# Disqus
+###
+
+activate :disqus do |d|
+  d.shortname = "middlemanstage"
 end
 
 # Methods defined in the helpers block are available in templates

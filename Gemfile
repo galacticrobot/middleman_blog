@@ -26,6 +26,9 @@ gem "middleman-blog"
 # Include gem for excerpts
 gem "nokogiri"
 
+# add disqus commenting tool
+gem "middleman-disqus"
+
 # Add syntax highlighting for code snippets
 gem "middleman-syntax"
 
