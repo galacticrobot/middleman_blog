@@ -42,3 +42,12 @@ $border-box-sizing: true !default;
     background-color: aqua;
     @include section;
 }
+
+// --------------------------------------------------------------------------
+//  Codeblocks
+// --------------------------------------------------------------------------
+
+pre {
+    background-color: #f8f8f8;
+    padding: 1em;
+}

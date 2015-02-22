@@ -49,9 +49,9 @@ activate :blog do |blog|
   blog.per_page = 2
   # blog.page_link = "page/{num}"
 
-  blog.prefix = "blog" #finds posts in /blog
-  blog.permalink = "article/{title}.html"
-  blog.layout = "article"
+  blog.prefix = "blog" #finds posts in folder "/blog"
+  #blog.permalink = "{title}.html"
+  blog.layout = "article" #what layout all "single post files" will have
 
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
