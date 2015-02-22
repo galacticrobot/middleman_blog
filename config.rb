@@ -40,9 +40,6 @@ activate :autoprefixer do |config|
   config.inline   = true
 end
 
-activate :relative_assets
-set :relative_links, true
-
 ###
 # Blog
 ###
