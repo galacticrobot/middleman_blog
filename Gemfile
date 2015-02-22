@@ -30,4 +30,7 @@ gem "nokogiri"
 gem "middleman-syntax"
 
 # Add Gem for deployment on github
-gem 'middleman-gh-pages'
+#gem 'middleman-gh-pages'
+
+# Gem for deployment
+gem 'middleman-deploy', '~> 1.0'

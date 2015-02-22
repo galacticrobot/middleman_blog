@@ -118,3 +118,15 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+###
+# DEPLOYMENT
+###
+
+activate :deploy do |deploy|
+  deploy.method   = :ftp
+  deploy.host     = 'ftp.thesherps.com'
+  deploy.path     = ''
+  deploy.user     = '143303_thesherps'
+  deploy.password = 'H3llboyAb3'
+end
