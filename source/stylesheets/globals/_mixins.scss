@@ -45,3 +45,28 @@
             padding: $vertical-padding 0 0 0;
         }
 }
+
+
+//--------------------------------------------------------------------------
+//  Section Color Mixin
+//--------------------------------------------------------------------------
+
+// Set the bg color and how many percent darker you want the border to be.
+@mixin section-bg-color ($section-color, $percent-darker) {
+    background-color: $section-color;
+    border-top: 1px solid darken($section-color, $percent-darker);
+    border-bottom: 1px solid darken($section-color, $percent-darker);
+}
+
+//--------------------------------------------------------------------------
+//  Omega reset - For Bourbon Neat NTH child fix.
+//  http://www.joshfry.me/blog/2013/05/13/omega-reset-for-bourbon-neat
+//--------------------------------------------------------------------------
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none; }
+}
+
+// --------------------------------------------------------------------------
+//  Lists
+// --------------------------------------------------------------------------

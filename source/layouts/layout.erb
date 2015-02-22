@@ -9,7 +9,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+        <%= favicon_tag 'images/favicon.png' %>
 
         <!-- Use title if it's in the page YAML frontmatter -->
         <title><%= current_page.data.title || "The Middleman" %></title>
@@ -24,6 +24,7 @@
         <%= yield %>
 
         <%= partial "partials/footer" %>
+
         <%= javascript_include_tag "all" %>
     </body>
 </html>
