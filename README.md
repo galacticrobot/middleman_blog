@@ -1,8 +1,8 @@
 # My middleman project
 
-## Deployment
 Building static stuff. Awesome.
 
+## Deployment
 Build with: ```middleman build```
 Deploy with: ```middleman deploy```
 
