@@ -7,6 +7,8 @@
 #   config.output_style = :compact
 # end
 
+#set :markdown_engine, :kramdown
+
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -75,6 +77,8 @@ activate :directory_indexes #Pretty URL's
 ###
 # Helpers
 ###
+
+activate :syntax #activate syntax highligthing
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes

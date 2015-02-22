@@ -8,13 +8,19 @@ tags: Web
 
 ![cast of friends](2015-02-21-my-first-post/photo.jpg)
 
+~~~
+def my_cool_method(message)
+  puts message
+end
+~~~
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam numquam quis beatae rerum inventore repellat minima, aliquid suscipit soluta. Distinctio fugit velit eveniet sequi doloremque totam maxime autem eius voluptas, magnam laudantium explicabo nihil, omnis corporis voluptate maiores debitis reiciendis non quas architecto qui, consequatur mollitia voluptatum et? Iusto dignissimos consectetur nostrum exercitationem, tempore quae rerum praesentium expedita, eligendi obcaecati quis dolor aperiam possimus molestias at, nesciunt officiis maiores laudantium, iure commodi natus aut illo.
 
 ![Devices](images/devices.png)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam numquam quis beatae rerum inventore repellat minima, aliquid suscipit soluta. Distinctio fugit velit eveniet sequi doloremque totam maxime autem eius voluptas, magnam laudantium explicabo nihil, omnis corporis voluptate maiores debitis reiciendis non quas architecto qui, consequatur mollitia voluptatum et? Iusto dignissimos consectetur nostrum exercitationem, tempore quae rerum praesentium expedita, eligendi obcaecati quis dolor aperiam possimus molestias at, nesciunt officiis maiores laudantium, iure commodi natus aut illo.
 
-<pre>
+~~~
 ###
 # Blog
 ###
@@ -46,7 +52,7 @@ activate :blog do |blog|
   #blog.calendar_template = "calendar.html"
 
 end
-</pre>
+~~~
 
 
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis vitae ipsum iste non minus reprehenderit fuga accusamus accusantium inventore, laudantium illum ab fugit ratione blanditiis possimus, quaerat culpa harum! Dolorem!

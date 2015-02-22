@@ -25,3 +25,9 @@ gem "middleman-blog"
 
 # Include gem for excerpts
 gem "nokogiri"
+
+# Add syntax highlighting for code snippets
+gem "middleman-syntax"
+
+# Add Gem for deployment on github
+gem 'middleman-gh-pages'
