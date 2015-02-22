@@ -21,10 +21,24 @@ $border-box-sizing: true !default;
     @include section;
 }
 
+.content-block-grey {
+    @include section;
+    @include section-bg-color(#f8f8f8, 2%);
+}
+
 .section-hero {
     @include background-image( linear-gradient( hsla(0, 0%, 7%, 0.4), hsla(0, 0%, 7%, 0.4)  ), url("../images/hero_ipad_2.jpg"));
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
+}
+
+.section-single-article {
+    @include section;
+}
+
+.section-article-block {
+    background-color: aqua;
+    @include section;
 }

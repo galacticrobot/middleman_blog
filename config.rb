@@ -43,9 +43,13 @@ end
 ###
 
 activate :blog do |blog|
-  blog.prefix = "articles" #finds posts in /articles
+  blog.prefix = "blog" #finds posts in /blog
   blog.paginate = true #enable pagination
+  blog.permalink = "article/{title}.html"
+  page "blog/*", :layout => :article #all articles/posts use the article layout.
 end
+
+activate :directory_indexes #Pretty URL's
 
 ###
 # Helpers

@@ -1,0 +1,11 @@
+<!-- this is the layout for articles.
+It will go where the "yield" is in the layout.erb -->
+<% wrap_layout :layout do %>
+    <section class="section-single-article">
+        <div class="container">
+            <article>
+                <%= yield %>
+            </article>
+        </div>
+    </section>
+<% end %>
