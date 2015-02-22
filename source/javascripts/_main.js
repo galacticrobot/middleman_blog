@@ -1,3 +1,5 @@
 (function() {
 
+    $(".video-container").fitVids();
+
 })();

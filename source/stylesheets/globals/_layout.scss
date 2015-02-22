@@ -52,3 +52,9 @@ pre {
     color: #fff;
     padding: 1em;
 }
+
+.video-item {
+    @include span-columns(6);
+    @include omega(2n);
+    margin-bottom: 40px;
+}
