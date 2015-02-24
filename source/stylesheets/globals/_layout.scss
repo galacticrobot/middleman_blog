@@ -58,3 +58,19 @@ pre {
     @include omega(2n);
     margin-bottom: 40px;
 }
+
+.welcome-block {
+    @include section;
+    height: 650px;
+    background: linear-gradient(to right,#25a1c3 0,#64bc5b 100%);
+    background-image: linear-gradient(to right, rgb(37, 161, 195) 0px, rgb(100, 188, 91) 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
