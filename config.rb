@@ -132,8 +132,8 @@ end
 
 activate :deploy do |deploy|
   deploy.method   = :ftp
-  deploy.host     = 'ftp.thesherps.com'
+  deploy.host     = ''
   deploy.path     = ''
-  deploy.user     = '143303_thesherps'
-  deploy.password = 'H3llboyAb3'
+  deploy.user     = ''
+  deploy.password = ''
 end
